@@ -8,7 +8,7 @@ public class Hash {
         byte[] hash = md5.digest(); //MessageDigest gibt ein Byte-Array zurück
         String hexValue = byteArrayToHex(hash); //Bytearray in Hexadezimalwert
         System.out.println(hexValue); //Ausgabe als Hexadezimalwert
-        System.out.println("Hi bra");
+        System.out.println("Hi braa");
     }
 /**
  * Wandelt die Eingabe in einen Hexadezimalwert um
