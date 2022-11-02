@@ -7,7 +7,7 @@ class Datetime
 private: //kann man nur innerhalb der Klasse ansprechen, also nur innerhalb von Methoden derselben Klasse. z.B. Datetime
 
     int year,month,day,hour,minute;
-public: //public ueberall
+public: //public ueberrall
     void set(int year, int month, int day, int hour, int minute){  //setter methoden sind zum setzen des wertes in der variab;e
 
         if (month > 12 || day > 31 || hour > 24 || minute > 60)
